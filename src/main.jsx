@@ -8,9 +8,10 @@ import './index.css'
 import { Greeting } from "./Greetings"
 import { Activity1 } from "./Activity1"
 import Animals from "./Animals"
+import { App } from "./ListItem"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Animals />
+    <App />
   </React.StrictMode>,
 )
