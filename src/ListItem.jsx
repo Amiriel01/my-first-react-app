@@ -88,8 +88,8 @@ function List(props) {
   }
   
   function App() {
-    const animals = [];
-  
+    const animals = ["Dog", "Cat", "Turtle"];
+  //added Greeting in just to see how it would render with another component stacked in it//
     return (
       <div>
         <Greeting></Greeting>
