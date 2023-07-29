@@ -10,9 +10,10 @@ import { Activity1 } from "./Activity1"
 import Animals from "./Animals"
 import { App } from "./ListItem"
 import  PackingList from "./PackedItems"
+import List from './KeyPractice'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <PackingList />
+    <List />
   </React.StrictMode>,
 )
