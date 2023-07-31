@@ -9,43 +9,6 @@ export default function List() {
     const everyoneElse = people.filter(person =>
         person.profession !== 'chemist');
 
-    // if (chemist) {
-
-    // {
-    //     chemist.map(person =>
-    //         <li key={person.id}>
-    //             <img
-    //                 src={getImageUrl(person)}
-    //                 alt={person.name}
-    //             />
-    //             <p>
-    //                 <b>{person.name}:</b>
-    //                 {' ' + person.profession + ' '}
-    //                 known for {person.accomplishment}
-    //             </p>
-    //         </li>
-    //     )
-    // }
-
-    // } else {
-
-    // {
-    //     everyoneElse.map(person =>
-    //         <li key={person.id}>
-    //             <img
-    //                 src={getImageUrl(person)}
-    //                 alt={person.name}
-    //             />
-    //             <p>
-    //                 <b>{person.name}:</b>
-    //                 {' ' + person.profession + ' '}
-    //                 known for {person.accomplishment}
-    //             </p>
-    //         </li>
-    //     )
-    // }
-
-// }
 return (
     <article>
         <h1>Scientists</h1>
